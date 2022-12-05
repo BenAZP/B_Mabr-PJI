@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="svg.css">
+    <title>Mundo Animal Brasileiro</title>
+</head>
+
+<body>
+    <nav id="navbar">
+        <div id="navbar-container">
+            <h1 class="logo">Mundo Animal Brasileiro</h1>
+            <ul id="navbar-items">
+                <li><a href="#showcase">Início</a> </li>
+                <li><a href="#title">Sobre</a> </li>
+                <li><a href="#container">Biomas </a> </li>
+                <li><a href="#equipe">Equipe</a> </li>
+            </ul>
+        </div>
+    </nav>
+
+    <header id="showcase">
+        <div class="showcase-container"></div>
+    </header>
+
+    <section id="info">
+        <div class="div-pai">
+            <div id="title">
+                <h1>Sobre Nossa Plataforma</h1>
+            </div>
+
+            <div id="right">
+                <center><h2>O que abordamos?</h2></center>
+                <div id="right-container">
+                    <span>
+                       <center><p>Este site irá relatar o modo de vida dos seres vivos que pertencem aos biomas brasileiros.<br>
+                            Serão 6 biomas e para cada um possui 4 animais, dentre eles temos:<br><br>
+                            <b>-Amazônia</b> <br><br>
+                            <b>-Caatinga</b> <br><br>
+                            <b>-Cerrado</b> <br><br>
+                            <b>-Mata Atlântica</b><br><br>
+                            <b>-Pampa</b><br><br>
+                            <b>-Pantanal:</b><br></center> 
+                        </p>
+                    </span>
+                </div>
+
+                <div id="left">
+                    <br>
+                    <center><h2>Funcionalidades:</h2></center>
+                    <div id="left-container">
+                        <center> <p>O primeiro passo para escolher seu animal, é escolher o bioma brasileiro que deseja.<br> 
+                            O botões abaixo apresentarão os 6 biomas aqui existentes, apenas um clique e será redirecionado <br>
+                            para o bioma e as suas respectivas especies de lá.<br>
+                            Com isso, vc já tem uma breve noção de como manusear! <br></center>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="info">
+        <div class="div-pai">
+            <div id="container">
+                <h1 class="titulo-biomas">Selecione um Bioma</h1>
+                <div class="biomas">
+                    <div class="biomas-container">
+                        <ul class="biomas-items">
+                            <li><a href="amazonia.html">Amazônia</a></li>
+                            <li><a href="caatinga.html">Caatinga</a></li>
+                            <li><a href="cerrado.html">Cerrado</a></li>
+                            <li><a href="mataatlantica.html">Mata Atlântica</a></li>
+                            <li><a href="pampa.html">Pampa</a></li>
+                            <li><a href="pantanal.html">Pantanal</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div id="div-pai">
+
+
+                    <img src="images/br.png" onload="fetchSvg(this)" id="mapa">
+                    <div class="redirect">
+                        <h1 id="stateName"></h1>
+                        <h3 id="statePop"></h3>
+                        <p id="stateDesc"></p>
+                    </div><br>
+                </div>
+
+                <section id="info">
+                    <section class="equipe-container">
+                        <div class="div-pai">
+                            <div id="equipe">
+
+                                <h1 class="titulo-equipe">Nossa Equipe</h1>
+                                <ul class="fotos">
+
+                                    <li>
+                                        <a class="equipe-links">
+                                            <figure id="first">
+                                            </figure>
+                                            <p class="name">Danilo Silva</p>
+                                            <p class="description"> <br>Quem estruturou a base para pagina de inicio e<br>
+                                                implementou o navbar, ou seja, a parte do inicio, sobre, biomas e equipe.</p>
+                                        </a>
+                                    </li>
+                                    
+
+                                    <li>
+                                        <a class="equipe-links">
+                                            <figure id="second">
+                                            </figure>
+                                            <p class="name">Giovanna Alves</p>
+                                            <p class="description"> <br>  Contribuiu na parte de design em quesito avaliação,<br> 
+                                                e foi encarregada de buscar e organizar as informações<br>
+                                            do seres vivos dos 3 ultimos biomas.</p>
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <a class="equipe-links">
+                                            <figure id="third">
+                                            </figure>
+                                            <p class="name">Giovana Dias</p>
+                                            <p class="description"> <br>Principal idealizadora do projeto e do design, <br>
+                                            pensando no que ele ia se tratar e as concepções principais do produto. <br>
+                                            Além de ter organizado e buscado as informações do 3 primeiros biomas. </p>
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <a class="equipe-links">
+                                            <figure id="fourth">
+                                            </figure>
+                                            <p class="name">Benjamin Anthony </p>
+                                            <p class="description"> <br> Responsavel em implementar a opção de menu dos biomas,<br>
+                                            junto com as irformações de cada um dos seres vivos.</p>
+                                        </a>
+                                    </li>
+                                </ul>
+                    </section>
+
+
+                    <script src="script.js"></script>
+</body>
+
+</html>
